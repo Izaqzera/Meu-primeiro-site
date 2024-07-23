@@ -1,0 +1,181 @@
+html {
+     background-color: rgb(78, 78, 78);
+}
+
+body{
+    width: auto;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 20px 20px 20px;
+    border: 5px solid red ;
+    background-image: url(fundosite.jpg);
+    background-repeat: 1;
+    background-size:auto;
+    background-position: center;
+}
+
+.ladoalado {
+    display: center;
+    justify-content: space-between;
+    padding-right: auto ;
+    padding-left: 120px;
+    
+}
+
+
+h1{
+    margin: 0;
+    padding: 20px 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 60px;
+    text-align: center;
+}
+ 
+
+p,
+li {
+        font-size: 16px;
+        line-height: 2;
+        letter-spacing: 0px;
+}
+
+p{ 
+    font-family: 'Gill Sans';
+}
+
+hr {
+    background-color: black;
+}
+
+div {
+    background: rgb(88, 107, 254);
+    border-radius: 5px;
+}
+
+h3 {
+    color: rgb(0, 255, 0);
+    background: darkgreen ;
+    text-align: center;
+    border-radius: 150px;
+}
+
+.Invista {
+    background: rgb(102, 20, 255);
+    color: rgb(255, 0, 242);
+    text-align: center;
+    font-size: 19px;
+    border-radius: 15px;
+}
+
+h5{
+    background: red;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 150px;
+}
+
+
+h2 {
+    background: purple;
+    color: violet;
+    text-align: center;
+    border-radius: 150px;
+}
+
+.quem {
+    background: red;
+    color: rgb(217, 255, 0);
+}
+
+.tipos {
+    background: black;
+    color: orange;
+}
+
+nav {
+    background-color: #333;
+    border-radius: 15px;
+}
+
+nav li {
+    display: inline-block;
+    border-radius: 150px;
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+   
+}
+
+nav li a:hover {
+    background-color: white;
+    transition: 0.3s
+    ease-out 0.1s;
+    transform: rotate3d(1, 2, 3, 3deg);
+    color: black;
+}
+ 
+.dropdown-menu {
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+}
+
+#link-topo {
+    text-decoration: none;
+    color: white;
+    background-color: #e61313;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px 3px 10px #333;
+    border-radius: 30px;
+}
+
+#link-topo:hover{
+    background: whitesmoke;
+    color: red;
+    transform: scale(1.2)rotate(360deg);
+    transition: all 0.6s
+    ease-in-out 0s;
+}
+
+footer {
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+    display: table;
+    width: 96%;
+    border-radius: 15px;
+}
+
+footer dl, footer p{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+footer dt{
+    font-weight: bold;
+}
+
+footer dd {
+    margin: 0;
+}
+
+footer p{
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
